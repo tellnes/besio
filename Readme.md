@@ -31,8 +31,6 @@ server.listen(4746, function() {
 client.js
 
 ```js
-var io = require('besio');
-
 var client = besio.connect(4746);
 
 socket.on('hello', function(cb) {
@@ -64,8 +62,6 @@ server.listen(4746, function() {
 client.js
 
 ```js
-var io = require('besio');
-
 var client = besio.connect(4746);
 
 process.stdin.resume();
