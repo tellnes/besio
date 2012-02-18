@@ -70,6 +70,6 @@ var client = besio.connect(4746);
 
 process.stdin.resume();
 
-socket.emit('stdin', process.stdin);
-socket.emit('stdout', process.stdout);
+client.emit('stdin', process.stdin);
+client.emit('stdout', process.stdout);
 ```
