@@ -17,7 +17,7 @@ var io = require('besio');
 server.js
 
 ```js
-var server = besio.createServer(funciton(client) {
+var server = besio.createServer(function(client) {
   client.emit('hello', function() {
     console.log('Hello from client');
   });
@@ -44,7 +44,7 @@ socket.on('hello', function(cb) {
 server.js
 
 ```js
-var server = besio.createServer(funciton(client) {
+var server = besio.createServer(function(client) {
   client.on('stdin', function(stream) {
     stream.pipe(process.stdout);
   });
