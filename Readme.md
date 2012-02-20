@@ -18,8 +18,8 @@ server.js
 
 ```js
 var server = besio.createServer(function(client) {
-  client.emit('hello', function() {
-    console.log('Hello from client');
+  client.emit('hello', function(message) {
+    console.log('Client says: ' + message); // Client says: Hello World
   });
 });
 
@@ -35,7 +35,7 @@ var client = besio.connect(4746);
 
 socket.on('hello', function(cb) {
   console.log('Hello from server');
-  cb(); // Send hello back to server
+  cb('Hello World'); // Send message to server
 });
 ```
 
