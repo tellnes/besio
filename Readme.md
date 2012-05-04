@@ -11,7 +11,7 @@ Besio is a Node.js project that allows you to emit events and stream data over a
 Require:
 
 ```js
-var io = require('besio');
+var besio = require('besio');
 ```
 
 server.js
@@ -33,7 +33,7 @@ client.js
 ```js
 var client = besio.connect(4746);
 
-socket.on('hello', function(cb) {
+client.on('hello', function(cb) {
   console.log('Hello from server');
   cb('Hello World'); // Send message to server
 });
