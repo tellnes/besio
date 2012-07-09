@@ -9,7 +9,7 @@
   },
   "main": "lib/",
   "engines": {
-    "node": "~0.6.9"
+    "node": "*"
   },
   "dependencies": {
     "binson": "~0.0.1",
