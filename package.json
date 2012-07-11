@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "binson": "~0.0.1",
-    "winston": "~0.5.10"
+    "winston": "~0.5.10",
+    "weak": "~0.2.1"
   },
   "devDependencies": {},
   "optionalDependencies": {}
