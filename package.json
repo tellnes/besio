@@ -12,7 +12,7 @@
     "node": "*"
   },
   "dependencies": {
-    "binson": "~0.0.1",
+    "binson": "~0.0.2",
     "debug": "~0.7.0",
     "weak": "~0.2.1"
   },
