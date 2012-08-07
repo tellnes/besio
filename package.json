@@ -8,14 +8,18 @@
     "url": "git://github.com/tellnes/besio.git"
   },
   "main": "lib/",
-  "engines": {
-    "node": "*"
-  },
   "dependencies": {
     "binson": "~0.0.2",
     "debug": "~0.7.0",
     "weak": "~0.2.1"
   },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
