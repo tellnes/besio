@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/tellnes/besio.png)](http://travis-ci.org/tellnes/besio)
 # Besio
 
 Besio is a Node.js project that allows you to emit events and stream data over a TCP connection.
