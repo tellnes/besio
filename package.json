@@ -2,7 +2,7 @@
   "author": "Christian Tellnes <christian@tellnes.no>",
   "name": "besio",
   "description": "Node Binary Event Stream IO",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/tellnes/besio.git"
